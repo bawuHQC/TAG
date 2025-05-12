@@ -3,14 +3,8 @@
 
 
 ## 📌 Introduction
-This repository contains the source code for this paper：TAG: Dialogue Summarization Based on Topic Segmentation and Graph Structures
-Dialogue summarization is one of the most challenging and intriguing tasks in text summarization, and it has drawn increasing attention in recent years.
-
-Due to the dynamic and interactive nature of dialogues — and the dispersed flow of information across multiple utterances from different speakers — many existing methods utilize static graph structures precomputed by external linguistic toolkits to model conversations.
-
-However, such approaches heavily rely on the accuracy of these tools, and the static graph construction is disconnected from the representation learning phase. This limits the model's ability to adapt to the downstream summarization task.
-
-In this work, we propose **SDDS**, a **Static-Dynamic Structure Fusion Graph** model for dialogue summarization. It integrates prior knowledge from linguistic tools and implicit knowledge from pretrained language models (PLMs). SDDS adaptively adjusts graph weights and learns graph structures end-to-end under summarization supervision.
+In recent years, dialogue summarization has emerged as a rapidly growing area of research in natural language processing. Dialogue summarization is challenging due to dispersed key information, redundant expressions, ambiguous topic identification, and difficult content selection. 
+To address these challenges, we propose an innovative approach to dialogue summarization that integrates topic segmentation and graph-structured modeling. Specifically, we first perform topic segmentation of the dialogue through clustering and quantify the key information in each utterance, thereby capturing the dialogue topics more effectively. Then, a redundancy graph and a keyword graph are constructed to suppress redundant information and extract key content, thereby enhancing the conciseness and coherence of the summary. Evaluations were conducted on the DialogSum, SAMSum, CSDS, and NaturalConv datasets. The experimental results demonstrate that the proposed method significantly outperforms existing benchmark models in terms of summary accuracy and information coverage. The Rouge-1 scores achieved were 48.03%, 53.75%, 60.78%, and 81.48%, respectively, validating its effectiveness in the dialogue summarization task.
 
 ---
 
