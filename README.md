@@ -3,7 +3,7 @@
 
 
 ## 📌 Introduction
-
+This repository contains the source code for this paper：TAG: Dialogue Summarization Based on Topic Segmentation and Graph Structures
 Dialogue summarization is one of the most challenging and intriguing tasks in text summarization, and it has drawn increasing attention in recent years.
 
 Due to the dynamic and interactive nature of dialogues — and the dispersed flow of information across multiple utterances from different speakers — many existing methods utilize static graph structures precomputed by external linguistic toolkits to model conversations.
