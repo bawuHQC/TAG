@@ -1,5 +1,5 @@
 {
-    "exp_description": "SDDS",
+    "exp_description": "TAG",
     "output_dir": "../results/bartlarge/samsum/running",
     "dataset_name": null,
     "dataset_config_name": null,
