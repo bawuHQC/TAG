@@ -1,8 +1,6 @@
-TAG: Dialogue Summarization Based on Topic Segmentation and Graph Structures
-# Dialogue Summarization with Static-Dynamic Structure Fusion Graph
 
-This repository contains the official source code for the paper:  
-**"Dialogue Summarization with Static-Dynamic Structure Fusion Graph" (SDDS)**.
+# TAG: Dialogue Summarization Based on Topic Segmentation and Graph Structures
+
 
 ## 📌 Introduction
 
